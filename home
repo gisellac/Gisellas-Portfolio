@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <title>Gisella's Portfolio</title>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One|Kumar+One+Outline|Source+Serif+Pro|Work+Sans&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <nav class="sidebar">
+    <ul class="navigation-pages">
+      <li class="home-page"><a href #home><b>Home</b></a></li>
+      <li class="about-page"><a href #about>About</a></li>
+      <li class="blog-page"><a href #blog>Blog</a></li>
+    </ul>
+  </nav>
+
+<section id="home">
+    <div class="photo-gallery">
+      <h1 class="last-name">Chan</h1>
+      <h1 class="first-name">Gisella</h1>
+      <img class="photos" src="https://lh3.googleusercontent.com/qY44nB8ExmH-YBoz2wa--XBH8K08czIro9rwnMG6uBimKqBWBKlTFGUmP5U2UltJjHZWhg5ENfpshJHRg_95-UPv2Z6XCyQ5FWEn13JlecNayVuSDurro2gypQEWjawky-xqXvDB=w1920-h1080" alt="figures on the beach" >
+      <img class="photos" src="https://lh3.googleusercontent.com/OXfxh2dGx628S_GET2rwdMLJ9H9e4-wGnh-wTU7TB7M0dFEfJJSD8ZYTaWYj797l-Htr1yLAgX8GnV62NAqMZoxHSwnAGVMW5r4caEqX6canci9FaW_UZvgk7jcZLrbLKliO7SLd=w1920-h1080" alt="san diego library ceiling" >
+      <img class="photos" src="https://lh3.googleusercontent.com/1jB5a3IhBKGsOuP8RVYWXzsfy_IaacRlJi9RhdzwWGzowM4PJygQgQlD6DRszj4cAjFa6O9KOE-gqKUmPG2dPV8x62pKWvH2Op-3av5oFeCKEibLvnJW9Ax6oA7U-_7_9brh6OAj=w1920-h1080" alt="parachute at the beach" >
+      <img class="photos" src="https://lh3.googleusercontent.com/DoVmtIOzSrg4PJ7CfyHXXwvbdGZDb0fysb7_ojP2M15LKfUvx0J_2OBvk_fXIXO3I1LuJsgazK80rmMsYb3TlQuiAcLAer2Q-4LIlXtpPb3s8n4ZNFeVx7HqUDt5oYmX8EYwK-6S=w1920-h1080" alt="dark water under pier" >
+      <img class="photos" src="https://lh3.googleusercontent.com/z2sSGy99Q2XTILhnBRT3MYoddeGkS3Zf_dDkAdcfZrS-x56nzIGXfTVLd05p06ypslz_9ssY-LebTCcB4Os_KlyJ2MuxXW-X0wMdzfnrVTmAB4tO_Cr8OaghQfQa59A0XJhayE9v=w1920-h1080" alt="birds of paradise" >
+      <img class="photos" src="https://lh3.googleusercontent.com/I7wlSPaZqJOH5MOTDEs6U-2Wyro0KbRl-W3kjFrNgpNvbgWaYRQgLxMd8P2_AiHcpG3UnzKzjfxgXRG-h_BB45LCOqLkLaNfh0sm9-63wNK6U-7ro7-qnA6lxVQuV7O1ZDXrHh28=w1920-h1080" alt="figure at sunset">
+      <img class="photos" src="https://lh3.googleusercontent.com/wOIYJ4oqLmT5Lh0LGb8gIiooGM13hlK_pNFNzzXQ-BGuxBPCy9irQLubVkI81G0Menq-dfCXV3ky5aAVd_2dFC4evWGutxEkHY3QTATlaPVG_P_Tcl0vIr0eRmgt83YELszjGpgA2Q=w1920-h1080" alt="silhouette on the beach">
+      <img class="photos" src="https://lh3.googleusercontent.com/oFS4hEx_QTfZQrmT_OK53dEyf4-p_JpNcBOu99UzpgcsZ4v7YJMoXPwWrzwKdjfsoeG3B4uhVvBCDAOkHFAGThTzX5lXIbt3ovBrOZepH1yZgZvtbI_KBpXzhYmcLY8nqmG58xQQ7A=w1920-h1080" alt="palm trees framing the moon">
+      <img class="photos" src="https://lh3.googleusercontent.com/08Om_y-ITQZ1lNmvrU6W5_fRlpVrpmEssf0u0VzVtY0fhpqT2wHK6lfWFkJIfiM10dW5CRl4gYIK8pmRT3XU4TCL70cbRCcnLAZXhqyFgQCOucdkFYY3h5RI-UmOkRe_kIJiYvW9VA=w1920-h1080" alt="coastline at dusk">
+    </div>
+</section>
+  
+</body>
+</html>
+
+<style>
+
+html * {
+  font-family: 'Work Sans', sans-serif;
+  color: #362f2d;
+}
+
+#home {
+  display: inline;
+  float: left;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+.sidebar {
+  background-color: #e0dcd7;
+  width: 160px;
+  height: 100%;
+  float: left;
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.navigation-pages {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-top: 75px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.photo-gallery {
+  float: left;
+  width: 96%;
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.photos {
+  width: 30%;
+}
+
+.first-name {
+  position: fixed;
+  left: 170px;
+  top: 80px;
+  transform: rotate(270deg);
+}
+
+.last-name {
+  position: fixed;
+  left: 210px;
+  top: 115px;
+  transform: rotate(90deg);
+  
+}
+
+h1 {
+  font-size: 30px;
+}
+
+</style>

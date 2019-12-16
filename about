@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <title>Gisella's Portfolio</title>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One|Kumar+One+Outline|Source+Serif+Pro|Work+Sans&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <nav class="sidebar">
+    <ul class="navigation-pages">
+      <li class="home-page"><a href #home>Home</a></li>
+      <li class="about-page"><a href #about><b>About</b></a></li>
+      <li class="blog-page"><a href #blog>Blog</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
+    <div class="about-body">
+      <h1 class="header-about">About Me</h1>
+      <p class="body-about">Hello, my name is Gisella. I like photographing sunsets, architecture, and the ocean.</p>
+      <div class="all-users">
+        <div class="logo-container">
+       <img class="instagram logo" src="https://icon-library.net/images/instagram-icon-black-and-white-png/instagram-icon-black-and-white-png-7.jpg" alt="instagram-logo">
+        </p>
+      <img class="twitter logo"src="data:image/png;base64,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" alt="twitter logo">
+
+        <img class="gmail logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEX///8AAABLS0tUVFRvb29qamqpqamBgYFsbGz6+vrn5+fMzMzw8PDj4+MnJyfa2tq0tLRjY2NQUFB7e3shISGRkZE6OjqwsLBcXFzS0tKXl5eLi4vz8/O+vr51dXVWVlZGRkYTExMzMzMaGhqhoaG8vLzrKCqYAAAD1klEQVR4nO2c61riMBRFG7wNCF7Au46Iyvu/4giClDbNSWtOc5hvrf90swS2JSekKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwD6TUabg0WUfKVcD59xtH0k1Zl/JgyvlkMeFW3M3Vg6qM7r4jl48aqbcux+Wmjnh6FO9lKUrcaKX4+GhHK321x25fXr53K95rCRrfUYeKjnuSSmoynM1+FonZ1zNce7tRSdqP/e9HqzzIp7Wg5z7qxJV5soXq1M2r74od6yStePam/qqknXkzXILzcK59Ge6B5W0QUOa+1SJW3HbFDlXiWs01Cqc8V1jYt+GOoWzDOQdKeSFDRU++iehuAyG7mOSNKypYjIapi2cJyFrmjBrh2ToBsNESS9vUlQmQ+fOkwT9lYOyGbpZgpzjiJx8hu7mt2s4k0VMTEbD394Uf8aFZDV0R90LR66YDYOEXjtiDbsXTkTFGDF0Z50CZvEB2Q3dRfvCmXy0uH4vhhfh59C2cISKWWQwfB2HHedtCmc4DV7rZlxZBevF8LgozoJPy8UvTp+HLzSrLTD0ZSg9s+fIKwt/qVU15zIshvPgc3uPKZxR+N0+Xb/bsxk2rDHuuBcvK1xg01gZDaWXQFgVE94EP7e5OQ1/VThyxZgw7F44ERVjw1AsHP+YYeQZSJSYlv+h5jYU+8I3m74PP2T/pii/oVQ49XlYbVa3R/WbtAFD8UO1P96ozjwr1FZDTBhKhVPewFGbee5T/4Jpw1AqnJ8NHL6ZZ4mp557diKFYON9bDLwzzx3e711mDKXCWW3g8M88tzQs1tkxlApnEZooueYFV0uGUuEEaVzDMmUoFU4zvorZYMtQLJwGQsMra4ZS4fi4CQ4gzRmKdzg1hJmOQcOWhSMtk1s0bFM4gYrZkMPwj/yI2MKJmI8bNYwrnHDFbLBqGFM4cWNju4Zi4URO4gwbhgtHrpgNlg1DhRO/Bce2YVPhRFXMBuOG/sJptTPFvKGncNoN++0bVgun7Q6xAzDcL5zWu/wOwnBXOB12ah6G4bZwumx+OxTDdeF02k90MIbFcNZt1/vhGHYFwyRgqAqGScBQFQyTgKEqGCYBQ1UwTELFsN9zMTBMAoaqYJgEDFXBMAkYqoJhEv5/w7khQ51fq88MGeqcE3VqyFDnrK+xIUOlQ/euzRjqHPVVfRFzGqodEZvx7Ms9Q8WTRcs/qFM6nbGBsqHi+aVFcfmR31D1DNovltssnX+6TWyPdXmTfxyegPFo8kW/JwlPLlekPTENAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0+AeKkyxRuZxR1AAAAABJRU5ErkJggg==" alt="gmail logo"></div>
+        <div class="usernames">
+          <p class="user">gisellachan</p>
+          <p class="user">gisellachan</p>
+          <p class="user">gisella.chan<br>@gmail.com</p>
+        </div>
+    </div>
+    </div>
+  
+  <div class="pictures-about">
+    <img class="picture-column1 picture" src="https://lh3.googleusercontent.com/tc69NHObMjHohJFev7xE7h6GIBy3VDUnrSypj1DmvzG9YJS1v5rVy8df2il-GyE7yHm6m2A4J6LFzES1b2kckTAzmNhQU3fhL-ceYfN2maQhy9D4uQyCZGCEYaZEON8sbsEisj-s=w1920-h1080" alt="gisella">
+    <img class="picture-column2 picture" src="https://lh3.googleusercontent.com/R_-I2Nk9mK60auRk7N3WzxAGCpz4btIWJN4qHLwU8UUHDXVIw5EJWHiAtcNrZYkAmCyK8XVJe81HqC2zXf8VH38MRMVQwIJ9Y1te2mW3I59oKcp_Bg3IXnu7gT11PtKKyzsLWfM4=w1920-h1080" alt="beach">
+    <img class="picture-column2 picture" src="https://lh3.googleusercontent.com/7s0jw87W11_LZBSkpQ13DcfPuW2WrPfxG8Dge79Vaqtf3E1SMoWib-EtUJRPVQaIJZY3YYQcEMlh6Du9PW53tB4PYgmDpB_J2aNFhgpeZRkClPZI-s1cQat3S3RTGErpsCcW2DoL=w1920-h1080" alt="shadows">
+  </div>
+</section>
+
+</body>
+</html>
+
+<style>
+
+html * {
+  font-family: 'Work Sans', sans-serif;
+  color: #362f2d;
+}
+
+.sidebar {
+  background-color: #e0dcd7;
+  width: 160px;
+  height: 100%;
+  float: left;
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: 
+}
+
+li a {
+  text-decoration: none;
+}
+
+.navigation-pages {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-top: 75px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+#about {
+  margin-left: 220px;
+  margin-top: 50px;
+  width: 830px;
+}
+.about-body {
+  width: 150px;
+  float: left;
+  position: relative;
+  margin-right: 30px;
+}
+
+.header-about {
+  font-size: 28px;
+}
+
+.body-about {
+  font-size: 18px;
+}
+
+.all-users {
+  width: 500px;
+}
+
+.logo-container {
+  margin-top: 30px;
+  width: 60px;
+  float: left;
+}
+
+.user {
+  font-size: 12px;
+  margin-top: 43px;
+}
+
+.instagram {
+  width: 50px;
+  margin-left: -10px;
+}
+
+.twitter {
+  width: 35px;
+}
+
+.gmail {
+  width: 60px;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+
+.logo {
+}
+
+.usernames {
+  width: 100px;
+  float: left;
+}
+
+.picture-column1 {
+  height: 303px;
+}
+
+.picture-column2 {
+  width: 224px;
+}
+
+.pictures-about {
+  position: relative;
+  height: 400px;
+  padding-top: 20px;
+}
+
+.picture {
+  float: right;
+  margin: 2.5px;
+}
+
+</style>

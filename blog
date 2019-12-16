@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <title>Gisella's Portfolio</title>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One|Kumar+One+Outline|Source+Serif+Pro|Work+Sans&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <nav class="sidebar">
+    <ul class="navigation-pages">
+      <li class="home-page"><a href #home>Home</a></li>
+      <li class="about-page"><a href #about>About</a></li>
+      <li class="blog-page"><a href #blog><b>Blog</b></a></li>
+    </ul>
+  </nav>
+  
+ <section id="blog">
+   <div class="picture-container">
+     <div class="background background-one">
+       <h3 class="header header-one">Laguna Beach</h3>
+       <p class="date date-one">November 29, 2019</p>
+     </div>
+     <img class="picture picture-one" src="https://lh3.googleusercontent.com/FFc8-HjGxebMe_8F27Vtthg3ms1SulnWlOoVXg-OyNeUBeHjxcVSSRm3BYI8Qhu2-fdbi4U2F8ED3oDzvNBrYDGZ-nvgdWwOd_FrN8wyLPikuCW6maTzXC7lS1ol10oeUhF8yO_H=w1920-h1080" alt="laguna beach">
+     <div class="background background-two">
+       <h3 class="header header-two">Double Rainbow</h3>
+       <p class="date date-two">November 29, 2019</p>
+     </div>
+     <img class="picture picture-two" src="https://lh3.googleusercontent.com/VLWgXwMTwju8L_ylqO9JnzN5lSBCtIX9KKabqRDVwNux4w8CiAo0dVpOnPGZR3YEpbpciMwwvJ1AAD7FPQ8DwaLDMGwktqZA89lnrv7sKJbjpk92kBvug2raZb0LRjnhxLzK7cgIZA=w1920-h1080" alt="double rainbow">
+     <div class="background background-three"><h3 class="header header-three">San Onofre Gate</h3>
+       <p class="date date-three">November 29, 2019</p></div>
+     <img class="picture picture-three" src="https://lh3.googleusercontent.com/7W43dWIvZqqs2SJiTd05cya7DuO2BPBfJ7BnOOBK9iwChi1b1zDwGyUuAzuFMEWaEDWoR5rfFVuB6KtpBcCfydv5xjcKBUKoYpUsEHIIq6uZUPgpOrWRe8c21-_1N8XFGKdAl1ILPw=w1920-h1080" alt="cloudy day">
+     <div class="background background-four">
+       <h3 class="header header-four">Sunset in Ensenada</h3>
+       <p class="date date-four">November 26, 2019</p>
+     </div>
+     <img class="picture picture-four" src="https://lh3.googleusercontent.com/YT5xGDH1r76ZpuMe2w1qKUAUyShVZ1gixZIc3wmVOutV7cqusH1Rio333bQEw0KcrG_CK6OeM-n4iU_1M4L2duv_cMdoAt0jmUWJ1KYIzCeSd7DwVd9selTJQJ47e6iR2ZWwdGyhDA=w1920-h1080" alt="ensenada sunset">
+     <div class="background background-five">
+       <h3 class="header header-five">La Jolla</h3>
+       <p class="date date-five">November 25, 2019</p>
+     </div>
+     <img class="picture picture-five" src="https://lh3.googleusercontent.com/C3JpqoKuyCe_TcG5iIIo0Am_bTWnSXaVYLbhgao586uu734vkVhQo_leEki1IsU1WFHgfL4bbFv4k2hzs_s2jt-I3lnWLGD4raTOZST3c2p_Q3nj4pTIM6C-BDO_WG4FYo9rr3l9nA=w1920-h1080" alt="la jolla beach">
+     <div class="background background-six">
+       <h3 class="header header-six">Sunset in Ensenada</h3>
+       <p class="date date-six">November 26, 2019</p>
+     </div>
+     <img class="picture picture-six" src="https://lh3.googleusercontent.com/XZ-XD-qc-6wl-FEiR3Z2Sl8lztWPlxX5XjVuSbO7DiSRkBnogIW0MSNBl7Dpk2dh0QD-DQLwf_BYIFU3BlKz_IEqlA3rPI2PMwCc-AcWvnSaIVthM8iA24npsXR-wkINXZYDYNLzEg=w1920-h1080" alt="garden gate">
+   </div>
+ </section>
+  
+</body>
+</html>
+
+<style>
+
+html * {
+  font-family: 'Work Sans', sans-serif;
+  color: #362f2d;
+}
+
+#home {
+  display: inline;
+  float: left;
+  width: 160px;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+.sidebar {
+  background-color: #e0dcd7;
+  width: 160px;
+  height: 100%;
+  float: left;
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: 
+}
+
+li a {
+  text-decoration: none;
+}
+
+.navigation-pages {
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-top: 75px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.picture-container {
+  width: 900px;
+  margin-left: 220px;
+  margin-top: 60px;
+}
+
+.picture {
+  width: 280px;
+  z-index: 3;
+}
+
+h3, p {
+  position: absolute;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  background-color: #e0dcd7;
+  width: 280px;
+  height: 280px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.header {
+  top: 200px;
+  left: 20px;
+}
+
+.date {
+  top: 225px;
+  left: 20px;
+}
+
+.background-two {
+  top: 60px;
+  left: 513px;
+}
+
+.background-three {
+  top: 60px;
+  left: 799px;
+}
+
+.background-five {
+  top: 344px;
+  left: 513px;
+}
+
+.background-six {
+  top: 344px;
+  left: 799px;
+}
+
+.background:hover {
+  opacity: 0.75;
+}
+
+</style>
